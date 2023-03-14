@@ -1,0 +1,38 @@
+{
+    "vscode-LiveServer": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "vscode-LiveServer",
+        "passthru": {
+            "name": "LiveServer",
+            "publisher": "ritwickdey"
+        },
+        "pinned": false,
+        "src": {
+            "name": "LiveServer-5.7.9.zip",
+            "sha256": "sha256-w0CYSEOdltwMFzm5ZhOxSrxqQ1y4+gLfB8L+EFFgzDc=",
+            "type": "url",
+            "url": "https://ritwickdey.gallery.vsassets.io/_apis/public/gallery/publisher/ritwickdey/extension/LiveServer/5.7.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "5.7.9"
+    },
+    "vscode-remote-ssh-edit": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "vscode-remote-ssh-edit",
+        "passthru": {
+            "name": "remote-ssh-edit",
+            "publisher": "ms-vscode-remote"
+        },
+        "pinned": false,
+        "src": {
+            "name": "remote-ssh-edit-0.84.0.zip",
+            "sha256": "sha256-33jHWC8K0TWJG54m6FqnYEotKqNxkcd/D14TFz6dgmc=",
+            "type": "url",
+            "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-ssh-edit/0.84.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.84.0"
+    }
+}

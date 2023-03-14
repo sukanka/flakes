@@ -1,0 +1,9 @@
+[vscode-LiveServer]
+src.vsmarketplace = "ritwickdey.LiveServer"
+fetch.vsmarketplace = "ritwickdey.LiveServer"
+passthru = { publisher = "ritwickdey", name = "LiveServer" }
+
+[vscode-remote-ssh-edit]
+src.vsmarketplace = "ms-vscode-remote.remote-ssh-edit"
+fetch.vsmarketplace = "ms-vscode-remote.remote-ssh-edit"
+passthru = { publisher = "ms-vscode-remote", name = "remote-ssh-edit" }
