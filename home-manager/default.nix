@@ -45,5 +45,16 @@ in rec {
     enable = true;
     enableUpdateCheck = false;
     enableExtensionUpdateCheck = false;
+    userSettings = {
+      "nix.enableLanguageServer" = true;
+      "nix.serverPath" = "nil";
+      "nix.serverSettings" = {
+        "nil" = {
+          "formatting" = {
+            "command" = ["nix" "fmt"];
+          };
+        };
+      };
+    };
   };
 }

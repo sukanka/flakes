@@ -21,6 +21,7 @@ in {
     kdeconnect
     home-manager
     rnix-lsp
+    nil
     nix-top
     htop
     clash-meta
