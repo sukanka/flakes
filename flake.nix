@@ -6,9 +6,6 @@
   inputs = {
     # Nixpkgs，即 NixOS 官方软件源
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nur = {
-      url = "github:nix-community/NUR";
-    };
     nixos-cn = {
       url = "github:nixos-cn/flakes"; # NixOS CN 的 GitHub 地址
       inputs.nixpkgs.follows = "nixpkgs"; # 强制 NixOS CN 与 nixpkgs 使用同一版本的 nixpkgs
@@ -25,7 +22,6 @@
   outputs = {
     self,
     nixpkgs,
-    nur,
     home-manager,
     ...
   } @ inputs: let
@@ -36,7 +32,6 @@
 
     nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
       modules = [
-        nur.nixosModules.nur
         ./configuration.nix
         ./pkgs.nix
         ./clash

@@ -68,6 +68,11 @@ in {
     #  ];
   };
   users.defaultUserShell = pkgs.zsh;
+  # Enable Oh-my-zsh
+  programs.zsh.ohMyZsh = {
+    enable = true;
+    plugins = ["git" "sudo"];
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget

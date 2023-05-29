@@ -26,7 +26,11 @@ in {
     clash-meta
     element-desktop
     nvfetcher
+    kdiskmark
+    fcitx5-chinese-addons
   ];
+  i18n.defaultLocale = "zh_CN.UTF-8";
+
   fonts.fonts = with pkgs; [
     noto-fonts
     noto-fonts-cjk
@@ -38,4 +42,10 @@ in {
     dina-font
     proggyfonts
   ];
+  i18n.inputMethod = {
+    enabled = "fcitx5";
+    fcitx5.addons = with pkgs; [
+      fcitx5-chinese-addons
+    ];
+  };
 }
