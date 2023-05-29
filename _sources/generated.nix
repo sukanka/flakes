@@ -14,11 +14,11 @@
   };
   vscode-remote-ssh-edit = {
     pname = "vscode-remote-ssh-edit";
-    version = "0.84.0";
+    version = "0.86.0";
     src = fetchurl {
-      url = "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-ssh-edit/0.84.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "remote-ssh-edit-0.84.0.zip";
-      sha256 = "sha256-33jHWC8K0TWJG54m6FqnYEotKqNxkcd/D14TFz6dgmc=";
+      url = "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-ssh-edit/0.86.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "remote-ssh-edit-0.86.0.zip";
+      sha256 = "sha256-JsbaoIekUo2nKCu+fNbGlh5d1Tt/QJGUuXUGP04TsDI=";
     };
     name = "remote-ssh-edit";
     publisher = "ms-vscode-remote";
